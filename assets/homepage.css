@@ -2,6 +2,11 @@ body, html {
     height: 100%;
     margin: 0;
   }
+
+  body {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
   
   .hero-image {
     background-image: url("https://cloud-kmj79xdx5.vercel.app/0gradientbg.png");
@@ -41,3 +46,67 @@ body, html {
       padding-top: 2rem;
       padding-bottom: 1rem;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Diagnostic CSS */
+
+  #diagnostic {
+    background-color: #fdda7acc;
+    padding: 1rem;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 34px; }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s; }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s; }
+  
+  input:checked + .slider {
+    background-color: #85e4ff; }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(94px);
+    -ms-transform: translateX(94px);
+    transform: translateX(94px); }
+  
+  .info {
+    visibility: hidden;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3; }
+  
+  .info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3; }
