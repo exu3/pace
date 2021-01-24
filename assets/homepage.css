@@ -36,3 +36,8 @@ body, html {
     background-color: #555;
     color: white;
   } */
+
+  .about-pace {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+  }
