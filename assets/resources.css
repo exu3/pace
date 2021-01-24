@@ -1,11 +1,16 @@
 .video-group {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
 }
 
-.spotify {
+.btn-group {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#spotify {
     margin: 0 auto;
     display: block; 
     width: 50%;
@@ -31,3 +36,12 @@
     background-color: #b5f4ff;  
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
