@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>PACE | Community</title>
-    <link href="assets/master.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <!--Padlet embed-->
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PACE | Community</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- style sheets -->
+  <link href="assets/master.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/community.css" rel="stylesheet" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" alt="logo" style="width:100px;">
+    </a>
+
+    <!-- navLinks -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="community.html">Community</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resources.html">Resources</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <!-- Page Body -->
+  <h1 class="text-center">Community</h1>
+  <p class="text-center">Welcome to the PACE community! This is a place where you can rant, talk about your feelings, and get advice anonymously. You can post a sticky note on our community blog or
+    chat live with another person on the internet!
+  </p>
+
+  <!--Padlet embed-->
     <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4">
       <p style="padding:0;margin:0">
         <iframe src="https://padlet.com/embed/r9hiu3v0v79e4mii" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com/?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a>
         </div>
-      </div>
+      </div><br><br>
 
-  </body>
+  <!-- web chat -->
+  <div id="chat">
+    <h1 class="text-center">Chat live with someone on the internet!</h1>
+    <div style="display: flex; justify-content: center;"><button><a style="text-decoration: none; color: black;" href="https://webchatws.eilla.repl.co/">Join the chat</a></button></div>
+  </div><br>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Made with ❤️ by the PACE team.</span>
+  </div>
+</footer>
+</body>
+
 </html>
