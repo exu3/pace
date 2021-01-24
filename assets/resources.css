@@ -1,0 +1,33 @@
+.video-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.spotify {
+    margin: 0 auto;
+    display: block; 
+    width: 50%;
+}
+
+.prompts-list {
+    font-family: 'Balsamiq Sans', cursive; 
+}
+
+/* backgrounds */
+#walking {
+    background-color: #b5f4ff;
+    padding: 2rem;
+}
+
+#journal {
+    padding: 2rem;
+    background-color: #b5f4ff; 
+}
+
+#draw {
+    padding: 2rem;
+    background-color: #b5f4ff;  
+}
+
