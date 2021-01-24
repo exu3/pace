@@ -7,3 +7,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.btn-group {
+    justify-content: right;
+    background-color: white;
+}
