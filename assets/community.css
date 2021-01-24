@@ -1,0 +1,9 @@
+body {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#chat {
+    padding: 2rem;
+    background-color: rgb(181, 246, 255);
+}
