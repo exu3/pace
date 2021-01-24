@@ -1,31 +1,134 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="assets/master.css" rel="stylesheet" type="text/css" />
-    <a href="https://repl.it/@LaurenPak/PACE#index.html"></a>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <div id="navbar">
-      <a href="#Home">Home</a>
-      <a href="#Community">Community</a>
-      <a href="#Resources">Resources</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PACE | Resources</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- style sheets -->
+  <link href="assets/master.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/resources.css" rel="stylesheet" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" alt="logo" style="width:100px;">
+    </a>
+
+    <!-- navLinks -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="community.html">Community</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resources.html">Resources</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- page body -->
+  <!-- Mindfulness Excercises -->
+  <div id="meditate">
+    <h1 class="text-center">Breathing Exercises</h1>
+    <p class="text-center">Practice mindfulness by following along with guided breathing exercises.</p>
+    <div class="video-group">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5DqTuWve9t8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/inpok4MKVLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><br><br>
+    <div id="walking">
+      <h1 class="text-center">Walking Meditation</h1>
+      <p>
+        1. Stand up straight with your back upright but not stiff. Feel your feet touching the ground and let your weight distribute evenly.<br><br>
+        2. Curl the thumb of your left hand in and wrap your fingers around it. Place it just above your belly button. Wrap your right hand around your left hand.<br><br>
+        3.Drop your gaze slightly. This helps you maintain focus.<br><br>
+        4.  Step out with your left foot. Feel it swing, feel the heel hit the ground, now the ball, now the toes. Feel the same as the right foot comes forward.<br><br>
+        5. Walk at a steady pace. When your attention wanders, bring it back to the sensations of your feet touching the ground.<br>
+      </p>  
+    </div><br><br>
+
+    
+    <div id="music">
+    <h1 class="text-center">Music</h1>
+      <p class="text-center">Relax your mind with calming music. Music can be played while you're mediating.</p>
+    <!--Spotify playlists-->
+    <div class="col">
+      <div class="spotify">
+        <iframe src="https://open.spotify.com/embed/playlist/1r4hnyOWexSvylLokn2hUa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZqd5JICZI0u" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div> 
     </div>
+    </div><br><br>
 
-    <!-- Headings -->
-    <h1>Resources</h1>
-    <h2>Meditation</h2>
-    <!--breathing exercises-->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5DqTuWve9t8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Journal -->
+    <div id="journal">
+      <h1 class="text-center">Journaling</h1>
+      <p class="text-center">
+        Choose a prompt from the list and respond to it in the text box below. The goal of this exercise is to bring promote creativity through mindful, diligent concentration.
+      </p>
+      <ul class="prompts-list">
+        <li>Letters from the future: What would you tell your January 1, 2020 self? </li>
+        <li>Write down all your wildest dreams for 2021. </li>
+        <li>What’s one quality that you’ve learned to appreciate about yourself? </li>
+        <li>What’s one new hobby, habit, or routine you’re glad that you picked up? </li>
+        <li>Write down at least three goals you would like to achieve by the end of the year. </li>
+        <li>I feel most peaceful when… I feel most angry when…</li>
+        <li>What unhealthy habits do you need to cut out?</li>
+        <li>How do you find fulfillment? </li>
+        <li>What is a challenge that you faced today? How did you solve it?</li>
+        <li>Write 5 things that make you smile.</li>
+      </ul>
+
+      <textarea id="response" name="paragraph_text" cols="100" rows="10" style="margin: 0 auto; display: block;"></textarea>
+    </div><br><br>
+
+    <!-- other resources -->
+
+    <div id="quotebox">
+      <h1 class="text-center">Motivational Quotes</h1>
+      <p class="text-center">Generate a random quote for inspiration by clicking the button below!</p>
+      <iframe src="https://quote-generator-hok7k7upx.vercel.app/" name="Random Quotes" style="width: 500px; height: 400px; margin: 0 auto; display: block;"></iframe>
+    </div><br><br>
+
+    <!-- drawing web app -->
+    <div id="draw">
+      <h1 class="text-center">Draw</h1>
+      <p class="text-center">Use the canvas below to draw to relieve stress or express creativity!</p>
+      <iframe src="https://jspaint.app/#local:2cfc837c830f4" style="width: 500px; height: 400px; margin: 0 auto; display: block;"></iframe>
+    </div><br>
+
     
-    
-    <h2>Music<h2>
-    <h2>Journaling</h2>
-    <h2>Inspirational Quotes</h2>
-  </body>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Made with ❤️ by the PACE team.</span>
+    </div>
+  </footer>
+</body>
+
 </html>
