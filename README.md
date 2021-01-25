@@ -8,7 +8,7 @@ As high-school teenagers ourselves, our team experiences the stress and anxiety 
 
 ## How we built it
 
-Our team’s website was designed in Canva and coded with HTML, CSS, Javascript, and React. As we brainstormed the layout, we created a wireframe on Canva and researched information for our content. We then coded the pages of our website mainly using HTML, CSS, and JavaScript and collaborating on Repl.it. Although none of us had much prior experience with JS, we were eager to learn and followed some online tutorials. The random quote generator was built with a quote API and React hooks. This was also the first time any of us had learned about React hooks, so we also did some online research for this component as well.
+Our team’s website was designed in Canva and coded with HTML, CSS, Javascript, and React. As we brainstormed the layout, we created a wireframe on Canva and researched information for our content. We then coded the pages of our website mainly using HTML, CSS, and JavaScript and collaborating on Repl.it. Although none of us had much prior experience with JS, we were eager to learn and followed some online tutorials. The random quote generator was built with a [quote API](https://type.fit/api/quotes) and React hooks. This was also the first time any of us had learned about React hooks, so we also did some online research for this component as well.
 
 ## What's next for PACE
 
