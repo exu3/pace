@@ -7,15 +7,21 @@ body, html {
     margin-right: 2rem;
     margin-left: 2rem;
   }
+
+  #hero {
+    width: 600px;
+    height: 360px;
+    margin-bottom: 10px;
+  }
   
-  .hero-image {
+  /* .hero-image {
     background-image: url("https://cloud-kmj79xdx5.vercel.app/0gradientbg.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+  } */
   
   .hero-text {
     text-align: center;
