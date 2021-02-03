@@ -12,7 +12,6 @@
 
   <!-- style sheets -->
   <link href="assets/master.css" rel="stylesheet" type="text/css" />
-  <link href="assets/navbar.css" rel="stylesheet">
   <link href="./assets/homepage.css" rel="stylesheet">
 
   <!-- Google fonts -->
@@ -24,7 +23,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
 
   <!-- Diagnostic Script -->
   <script>
@@ -59,6 +58,7 @@
   </nav>
 
   <!-- hero -->
+  <div id="hero">
   <div class="hero-image">
     <div class="hero-text">
       <h1>PACE</h1>
@@ -66,6 +66,7 @@
       <button><a href="#learn-more">Learn more</a></button>
     </div>
   </div>
+</div>
 
   <!-- about section -->
   <div id="learn-more">
@@ -160,15 +161,26 @@
   </form>
   </div><br><br>
 
-
-
-
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <span class="text-muted">Made with ❤️ by the PACE team.</span>
     </div>
   </footer>
+
+  <!-- Vanta animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+  <script>
+  VANTA.CLOUDS({
+    el: "#hero",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00
+  })
+  </script>
 
 </body>
 
